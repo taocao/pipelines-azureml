@@ -7,5 +7,5 @@ environment:
     interpreterPath: python
     condaDependenciesFile: config/train-conda.yml
   docker:
-    enabled: false
+    enabled: true
     baseImage: mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04:20220314.v1
